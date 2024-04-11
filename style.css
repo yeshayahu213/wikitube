@@ -1,0 +1,24 @@
+nav{
+display:flex;
+justify-content: space-between;
+}
+.movieComtainer{
+    display: flex;
+   background-color: aqua;
+    gap:1em
+}
+main{
+    display: flex;
+    gap: 40px;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+img{
+    padding: 10px;
+}
+.ytp-cued-thumbnail-overlay{
+    width: 100px;
+}

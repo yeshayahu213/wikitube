@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="onInit()">
+    <nav>
+        <p>wikitube</p>
+        <input type="text" placeholder="serch..." onchange="onGetResBySearch(this.value)">
+    </nav>
+    <main>
+        <div class="items"></div>
+        <div class="wiki-player">
+            <div class="video-player"></div>
+            <div class="wiki-section"></div>
+        </div>
+       
+    </main>
+    
+   
+<script src="axios.js"></script>
+    <script src="service.js"></script>
+    <script src="controler.js"></script>
+    <script src="util.js"></script>
+</body>
+</html> 
